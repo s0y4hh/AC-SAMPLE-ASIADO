@@ -20,8 +20,8 @@ def calculate(operation, num1, num2):
 st.title("Simple Calculator")
 
 # User input for numbers
-num1 = st.number_input("Enter the first number:")
-num2 = st.number_input("Enter the second number:")
+num1 = st.number_input("Enter the first number:", value=0)
+num2 = st.number_input("Enter the second number:", value=0)
 
 # User input for operation
 operation = st.selectbox("Select an operation:", ['Add', 'Subtract', 'Multiply', 'Divide'])
