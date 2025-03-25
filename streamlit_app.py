@@ -31,5 +31,4 @@ if st.button("Calculate"):
     result = calculate(operation, num1, num2)
     st.write(f"The result is: {result}")
 
-# Footer
-st.write("Made with ❤️ using Streamlit")
+
